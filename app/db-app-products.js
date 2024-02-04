@@ -60,7 +60,7 @@ const DB_APP_PRODUCTS = [
             ],
             weight: 310,
             price:{
-                value: 310,
+                value: 290,
                 currency: 'CZK'
             }
 
