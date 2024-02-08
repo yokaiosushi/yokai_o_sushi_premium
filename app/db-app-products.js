@@ -208,7 +208,7 @@ const DB_APP_PRODUCTS = [
             ],
             weight: 310,
             price:{
-                value: 330,
+                value: 300,
                 currency: 'Kč'
             }
 
@@ -274,7 +274,7 @@ const DB_APP_PRODUCTS = [
             ],
             weight: 310,
             price:{
-                value: 345,
+                value: 300,
                 currency: 'Kč'
             }
 
