@@ -363,7 +363,7 @@ const DB_APP_PRODUCTS = [
                 rus: 'Запеченные креветки'
             },
             id: '310',
-            imgSrc: './assets/products-img/zapech-krivetka.png',
+            imgSrc: './assets/products-img/zapech-tuna.png',
             imgAlt: {
                 ces: 'Fotografie rohlíků',
                 eng: 'Photo rolse',
@@ -445,7 +445,7 @@ const DB_APP_PRODUCTS = [
                 rus: 'Запеченная креветка спайси'
             },
             id: '320',
-            imgSrc: './assets/products-img/zapech-krivetka-spasi.png',
+            imgSrc: './assets/products-img/zapech-tuna-spasi.png',
             imgAlt: {
                 ces: 'Fotografie rohlíků',
                 eng: 'Photo rolse',
@@ -535,7 +535,7 @@ const DB_APP_PRODUCTS = [
                 rus: 'Запеченный лосось'
             },
             id: '110',
-            imgSrc: './assets/products-img/zapech-salmon.png',
+            imgSrc: './assets/products-img/zapech-tuna.png',
             imgAlt: {
                 ces: 'Fotografie rohlíků',
                 eng: 'Photo rolse',
@@ -617,7 +617,7 @@ const DB_APP_PRODUCTS = [
                 rus: 'Запеченный лосось спайси'
             },
             id: '120',
-            imgSrc: './assets/products-img/zapech-salmon-spasi.png',
+            imgSrc: './assets/products-img/zapech-tuna-spasi.png',
             imgAlt: {
                 ces: 'Fotografie rohlíků',
                 eng: 'Photo rolse',
