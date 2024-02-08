@@ -61,7 +61,7 @@ const DB_APP_PRODUCTS = [
             weight: 310,
             price:{
                 value: 290,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -209,7 +209,7 @@ const DB_APP_PRODUCTS = [
             weight: 310,
             price:{
                 value: 330,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -275,7 +275,7 @@ const DB_APP_PRODUCTS = [
             weight: 310,
             price:{
                 value: 345,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -431,7 +431,7 @@ const DB_APP_PRODUCTS = [
             weight: 310,
             price:{
                 value: 280,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -521,7 +521,7 @@ const DB_APP_PRODUCTS = [
             weight: 310,
             price:{
                 value: 285,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -603,7 +603,7 @@ const DB_APP_PRODUCTS = [
             weight: 310,
             price:{
                 value: 270,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -693,7 +693,7 @@ const DB_APP_PRODUCTS = [
             weight: 310,
             price:{
                 value: 275,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -775,7 +775,7 @@ const DB_APP_PRODUCTS = [
             weight: 310,
             price:{
                 value: 280,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -873,7 +873,7 @@ const DB_APP_PRODUCTS = [
             weight: 310,
             price:{
                 value: 285,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -1103,7 +1103,7 @@ const DB_APP_PRODUCTS = [
             weight: 120,
             price:{
                 value: 130,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -1153,7 +1153,7 @@ const DB_APP_PRODUCTS = [
             weight: 120,
             price:{
                 value: 120,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -1269,7 +1269,7 @@ const DB_APP_PRODUCTS = [
             weight: 120,
             price:{
                 value: 130,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -1319,7 +1319,7 @@ const DB_APP_PRODUCTS = [
             weight: 120,
             price:{
                 value: 130,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
@@ -1377,7 +1377,7 @@ const DB_APP_PRODUCTS = [
             weight: 120,
             price:{
                 value: 110,
-                currency: 'CZK'
+                currency: 'Kč'
             }
 
         }
