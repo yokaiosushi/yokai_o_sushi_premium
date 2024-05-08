@@ -1,5 +1,192 @@
 const DB_APP_PRODUCTS = [
+    {    
+            product: {
+        name: {
+            ces: 'Tomoe',
+            eng: 'Tomoe',
+            ukr: 'Томоє',
+            rus: 'Томое'
+        },
+        id: '502',
+        imgSrc: './assets/products-img/tomoe-new.png',
+        imgAlt: {
+            ces: 'Fotografie rohlíků',
+            eng: 'Photo rolse',
+            ukr: 'Фото роллів',
+            rus: 'Фото роллов'
+        },
+        ingredients: [
+            {
+                text: {
+                    ces: 'rýže',
+                    eng: 'rice',
+                    ukr: 'рис',
+                    rus: 'рис'
+                },
+            },
+            {
+                text: {
+                    ces: 'nori',
+                    eng: 'nori',
+                    ukr: 'норі',
+                    rus: 'нори'
+                },
+            },
+            {
+                text: {
+                    ces: 'sýr  čedar',
+                    eng: 'cheddar cheese',
+                    ukr: 'сир чеддер',
+                    rus: 'сыр чеддер'
+                },
+            },
+            {
+                text: {
+                    ces: 'krevety',
+                    eng: 'shrimp',
+                    ukr: 'креветка',
+                    rus: 'креветка'
+                },
+            },
+            {
+                text: {
+                    ces: 'tavený sýr',
+                    eng: 'cream cheese',
+                    ukr: 'вершковий сир',
+                    rus: 'сливочный сыр'
+                }
+            },
+            {
+                text: {
+                    ces: 'sýr mozzarella',
+                    eng: 'mozzarella cheese',
+                    ukr: 'сир моцарелла',
+                    rus: 'сыр моцарелла'
+                },
+            },
+            {
+                text: {
+                    ces: 'japonská hruška',
+                    eng: 'japanese pear',
+                    ukr: 'японська груша',
+                    rus: 'японская груша'
+                }
+            },
+            {
+                text: {
+                    ces: 'teriyaki omáčka',
+                    eng: 'teriyaki sauce',
+                    ukr: 'соус теріяки',
+                    rus: 'соус терияки'
+                }
+            },
+            {
+                text: {
+                    ces: 'parmazán',
+                    eng: 'parmesan',
+                    ukr: 'пармезан',
+                    rus: 'пармезан'
+                }
+            },
+        ],
+        weight: 290,
+        price:{
+            value: 280,
+            currency: 'Kč'
+        }
+
+    }
+},
     {
+        product: {
+            name: {
+                ces: 'Okami Horo',
+                eng: 'Okami Horo',
+                ukr: 'Окамі Хоро',
+                rus: 'Оками Хоро'
+            },
+            id: '501',
+            imgSrc: './assets/products-img/okami-horo-new.png',
+            imgAlt: {
+                ces: 'Fotografie rohlíků',
+                eng: 'Photo rolse',
+                ukr: 'Фото роллів',
+                rus: 'Фото роллов'
+            },
+            ingredients: [
+                {
+                    text: {
+                        ces: 'rýže',
+                        eng: 'rice',
+                        ukr: 'рис',
+                        rus: 'рис'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'nori',
+                        eng: 'nori',
+                        ukr: 'норі',
+                        rus: 'нори'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'avokádo',
+                        eng: 'avokado',
+                        ukr: 'авокадо',
+                        rus: 'авокадо'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'plátek lososa',
+                        eng: 'salmon slice',
+                        ukr: 'слайс лосося',
+                        rus: 'слайс лосося'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'krevety',
+                        eng: 'shrimp',
+                        ukr: 'креветка',
+                        rus: 'креветка'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'tavený sýr',
+                        eng: 'cream cheese',
+                        ukr: 'вершковий сир',
+                        rus: 'сливочный сыр'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'tobiko kaviár',
+                        eng: 'tobiko caviar',
+                        ukr: 'ікра тобіко',
+                        rus: 'икра тобико'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'tobiko kaviár',
+                        eng: 'sněžný krab',
+                        ukr: 'сніжний краб',
+                        rus: 'снежный краб'
+                    },
+                },
+            ],
+            weight: 360,
+            price:{
+                value: 370,
+                currency: 'Kč'
+            }
+
+        }
+    },
         product: {
             name: {
                 ces: 'Philadelphia s lososem',
