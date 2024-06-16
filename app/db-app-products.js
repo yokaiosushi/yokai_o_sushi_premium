@@ -1161,8 +1161,8 @@ const DB_APP_PRODUCTS = [
             name: {
                 ces: 'Pečený pikantní tuňák',
                 eng: 'Baked spicy tuna',
-                ukr: 'Запечений тунець',
-                rus: 'Запеченный тунец'
+                ukr: 'Запечений тунець спайсі',
+                rus: 'Запеченный тунец спайси'
             },
             id: '420',
             imgSrc: './assets/products-img/zapech-tuna-spasi.png',
