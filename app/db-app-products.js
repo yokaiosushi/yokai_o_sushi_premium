@@ -1,4 +1,184 @@
-const DB_APP_PRODUCTS = [    
+const DB_APP_PRODUCTS = [ 
+        {
+        product: {
+            name: {
+                ces: 'Gyūki',
+                eng: 'Gyuki',
+                ukr: "Г'юки",
+                rus: 'Гьюки'
+            },
+            id: '506',
+            imgSrc: './assets/products-img/gyuki-new.png',
+            imgAlt: {
+                ces: 'Fotografie rohlíků',
+                eng: 'Photo rolse',
+                ukr: 'Фото роллів',
+                rus: 'Фото роллов'
+            },
+            ingredients: [
+                {
+                    text: {
+                        ces: 'rýže',
+                        eng: 'rice',
+                        ukr: 'рис',
+                        rus: 'рис'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'nori',
+                        eng: 'nori',
+                        ukr: 'норі',
+                        rus: 'нори'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'krevety',
+                        eng: 'shrimp',
+                        ukr: 'креветка',
+                        rus: 'креветка'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'tavený sýr',
+                        eng: 'cream cheese',
+                        ukr: 'вершковий сир',
+                        rus: 'сливочный сыр'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'tobiko kaviár',
+                        eng: 'tobiko caviar',
+                        ukr: 'ікра тобіко',
+                        rus: 'икра тобико'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'japonská hruška',
+                        eng: 'japanese pear',
+                        ukr: 'японська груша',
+                        rus: 'японская груша'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'černý sezam',
+                        eng: 'black sesame',
+                        ukr: 'чорний кунжут',
+                        rus: 'черный кунжут'
+                    }
+                },
+            ],
+            weight: 300,
+            price:{
+                value: 280,
+                currency: 'Kč'
+            }
+
+        }
+    },
+    {
+        product: {
+            name: {
+                ces: 'Karasu Tengu',
+                eng: 'Karasu Tengu',
+                ukr: 'Карасу Тенгу',
+                rus: 'Карасу Тэнгу'
+            },
+            id: '505',
+            imgSrc: './assets/products-img/karasu-tengu-new.png',
+            imgAlt: {
+                ces: 'Fotografie rohlíků',
+                eng: 'Photo rolse',
+                ukr: 'Фото роллів',
+                rus: 'Фото роллов'
+            },
+            ingredients: [
+                {
+                    text: {
+                        ces: 'rýže',
+                        eng: 'rice',
+                        ukr: 'рис',
+                        rus: 'рис'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'sépiový inkoust',
+                        eng: 'cuttlefish ink',
+                        ukr: 'чорнило каракатиці',
+                        rus: 'чернила каракатици'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'nori',
+                        eng: 'nori',
+                        ukr: 'норі',
+                        rus: 'нори'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'smažený losos',
+                        eng: 'fried salmon',
+                        ukr: 'слайс лосося гриль',
+                        rus: 'жареный лосось'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'elená cibule',
+                        eng: 'green onion',
+                        ukr: 'зелена цибуля',
+                        rus: 'зеленый лук'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'tavený sýr',
+                        eng: 'cream cheese',
+                        ukr: 'вершковий сир',
+                        rus: 'сливочный сыр'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'tobiko kaviár',
+                        eng: 'tobiko caviar',
+                        ukr: 'ікра тобіко',
+                        rus: 'икра тобико'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'okurka',
+                        eng: 'cucumber',
+                        ukr: 'огірок',
+                        rus: 'огурец'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'bílý sezam',
+                        eng: 'white sesame',
+                        ukr: 'білий кунжут',
+                        rus: 'белый кунжут'
+                    }
+                },
+            ],
+            weight: 310,
+            price:{
+                value: 270,
+                currency: 'Kč'
+            }
+
+        }
+    }, 
     {
         product: {
             name: {
