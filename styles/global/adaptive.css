@@ -1,0 +1,29 @@
+@media only screen and (max-width: 640px) {
+    .header-title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .hiden {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .header-title {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+    .header-cont {
+        justify-content: flex-start;
+        padding-left: 70px;
+    }
+    .header-title {
+        font-size: 15px;
+    }
+}
