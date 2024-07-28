@@ -1,4 +1,94 @@
 const DB_APP_PRODUCTS_SETS =  [ 
+        {
+        product: {
+            name: {
+                ces: 'Tokio',
+                eng: 'Tokio',
+                ukr: 'Токіо',
+                rus: 'Токио'
+            },
+            id: '1004',
+            imgSrc: './assets/sets-img/tokio.jpg',
+            imgAlt: {
+                ces: 'Fotografie sety',
+                eng: 'Photo set',
+                ukr: 'Фото сету',
+                rus: 'Фото сэта'
+            },
+            setsValue: [
+                {
+                    text: {
+                        ces: 'Gyūki',
+                        eng: 'Gyuki',
+                        ukr: "Г'юки",
+                        rus: 'Гьюки'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'Karasu Tengu',
+                        eng: 'Karasu Tengu',
+                        ukr: 'Карасу Тенгу',
+                        rus: 'Карасу Тэнгу'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'Philadelphia s lososem',
+                        eng: 'Philadelphia with salmon',
+                        ukr: 'Філадельфія з лососем',
+                        rus: 'Филадельфия с лососем'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'Philadelphia s krevetami',
+                        eng: 'Philadelphia with shrimp',
+                        ukr: 'Філадельфія з креветками',
+                        rus: 'Филадельфия с креветками'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'Kitsune',
+                        eng: 'Kitsune',
+                        ukr: 'Кіцуне',
+                        rus: 'Кицунэ'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'Inugamie',
+                        eng: 'Inugamy',
+                        ukr: 'Инугамі',
+                        rus: 'Инугами'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'Pečené krevety',
+                        eng: 'Baked shrimp',
+                        ukr: 'Запечені креветки',
+                        rus: 'Запеченные креветки'
+                    }
+                }
+            ],
+            weight: 2180,
+            persone:  {
+                text: {
+                    ces: '56 kusů.',
+                    eng: '56 pieces.',
+                    ukr: '56 шматочків.',
+                    rus: '56 кусочков.'
+                }
+            },
+            price:{
+                value: 2000,
+                currency: 'Kč'
+            }
+
+        }
+    }, 
     {
         product: {
             name: {
