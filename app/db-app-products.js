@@ -2,6 +2,79 @@ const DB_APP_PRODUCTS = [
     {
         product: {
             name: {
+                ces: 'Kalifornie s krevetami',
+                eng: 'California with shrimp',
+                ukr: "Каліфорнія з креветкою",
+                rus: 'Калифорния с креветкой'
+            },
+            id: '511',
+            imgSrc: './assets/products-img/kalifornia_krivetka-new.jpg',
+            imgAlt: {
+                ces: 'Fotografie rohlíků',
+                eng: 'Photo rolse',
+                ukr: 'Фото роллів',
+                rus: 'Фото роллов'
+            },
+            ingredients: [
+                {
+                    text: {
+                        ces: 'rýže',
+                        eng: 'rice',
+                        ukr: 'рис',
+                        rus: 'рис'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'nori',
+                        eng: 'nori',
+                        ukr: 'норі',
+                        rus: 'нори'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'tobiko kaviár',
+                        eng: 'tobiko caviar',
+                        ukr: 'ікра тобіко',
+                        rus: 'икра тобико'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'okurka',
+                        eng: 'cucumber',
+                        ukr: 'огірок',
+                        rus: 'огурец'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'krevety',
+                        eng: 'shrimp',
+                        ukr: 'креветка',
+                        rus: 'креветка'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'avokádo',
+                        eng: 'avokado',
+                        ukr: 'авокадо',
+                        rus: 'авокадо'
+                    }
+                }
+            ],
+            weight: 310,
+            price:{
+                value: 370,
+                currency: 'Kč'
+            }
+
+        }
+    },{
+        product: {
+            name: {
                 ces: 'Kalifornie s lososem',
                 eng: 'California with salmon',
                 ukr: "Каліфорнія з лососем",
