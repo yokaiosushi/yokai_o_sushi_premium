@@ -2,6 +2,176 @@ const DB_APP_PRODUCTS = [
     {
         product: {
             name: {
+                ces: 'Susuwatari',
+                eng: 'Susuwatari',
+                ukr: "Сусуватарi",
+                rus: 'Сусуватари'
+            },
+            id: '507',
+            imgSrc: './assets/products-img/susuwatari-new.jpg',
+            imgAlt: {
+                ces: 'Fotografie rohlíků',
+                eng: 'Photo rolse',
+                ukr: 'Фото роллів',
+                rus: 'Фото роллов'
+            },
+            ingredients: [
+                {
+                    text: {
+                        ces: 'rýže',
+                        eng: 'rice',
+                        ukr: 'рис',
+                        rus: 'рис'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'nori',
+                        eng: 'nori',
+                        ukr: 'норі',
+                        rus: 'нори'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'tobiko kaviár',
+                        eng: 'tobiko caviar',
+                        ukr: 'ікра тобіко',
+                        rus: 'икра тобико'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'mango',
+                        eng: 'mango',
+                        ukr: 'манго',
+                        rus: 'манго'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'úhoř',
+                        eng: 'eel',
+                        ukr: 'вугор',
+                        rus: 'угорь'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'tavený sýr',
+                        eng: 'cream cheese',
+                        ukr: 'вершковий сир',
+                        rus: 'сливочный сыр'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'sépiový inkoust',
+                        eng: 'cuttlefish ink',
+                        ukr: 'чорнило каракатиці',
+                        rus: 'чернила каракатици'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'sýr  čedar',
+                        eng: 'cheddar cheese',
+                        ukr: 'сир чеддер',
+                        rus: 'сыр чеддер'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'unagi omáčka',
+                        eng: 'unagi sauce',
+                        ukr: 'соус унагі',
+                        rus: 'соус унаги'
+                    }
+                },
+            ],
+            weight: 290,
+            price:{
+                value: 350,
+                currency: 'Kč'
+            }
+
+        }
+    },{
+        product: {
+            name: {
+                ces: 'California with eel',
+                eng: 'Kalifornie s úhořem',
+                ukr: "Каліфорнія з вугром",
+                rus: 'Калифорния с угрем'
+            },
+            id: '512',
+            imgSrc: './assets/products-img/kalifornia_ugor-new.jpg',
+            imgAlt: {
+                ces: 'Fotografie rohlíků',
+                eng: 'Photo rolse',
+                ukr: 'Фото роллів',
+                rus: 'Фото роллов'
+            },
+            ingredients: [
+                {
+                    text: {
+                        ces: 'rýže',
+                        eng: 'rice',
+                        ukr: 'рис',
+                        rus: 'рис'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'nori',
+                        eng: 'nori',
+                        ukr: 'норі',
+                        rus: 'нори'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'tobiko kaviár',
+                        eng: 'tobiko caviar',
+                        ukr: 'ікра тобіко',
+                        rus: 'икра тобико'
+                    },
+                },
+                {
+                    text: {
+                        ces: 'avokádo',
+                        eng: 'avokado',
+                        ukr: 'авокадо',
+                        rus: 'авокадо'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'okurka',
+                        eng: 'cucumber',
+                        ukr: 'огірок',
+                        rus: 'огурец'
+                    }
+                },
+                {
+                    text: {
+                        ces: 'úhoř',
+                        eng: 'eel',
+                        ukr: 'вугор',
+                        rus: 'угорь'
+                    }
+                },
+            ],
+            weight: 310,
+            price:{
+                value: 420,
+                currency: 'Kč'
+            }
+
+        }
+    },{
+        product: {
+            name: {
                 ces: 'Kalifornie s krevetami',
                 eng: 'California with shrimp',
                 ukr: "Каліфорнія з креветкою",
