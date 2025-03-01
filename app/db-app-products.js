@@ -1,5 +1,5 @@
 const DB_APP_PRODUCTS = [  
-    /*{
+    {
         product: {
             name: {
                 ces: 'Susuwatari',
@@ -169,7 +169,7 @@ const DB_APP_PRODUCTS = [
             }
 
         }
-    }*/,{
+    },{
         product: {
             name: {
                 ces: 'Kalifornie s krevetami',
